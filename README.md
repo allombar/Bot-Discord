@@ -17,11 +17,7 @@ npm install
 ```sh
 node index
 ```
-
-
-<!-- USAGE EXAMPLES -->
-## Utilisation
-
+Vous êtes enfin prêt à utiliser le Bot Discord !
 <!-- CONTACT -->
 ## Contact
 
