@@ -11,7 +11,7 @@ git clone https://github.com/allombar/Bot-Discord.git
 ```sh
 npm install
 ```
-3. Configurez le nom du bot dans le fichier config.json qui se trouve dans le dossier config
+3. Configurez le nom du bot ainsi que le token dans le fichier config.json qui se trouve dans le dossier config
 4. Configurez vos id dans le fichier BotManager.js
 5. Lancez le bot à l'aide de la commande
 ```sh
