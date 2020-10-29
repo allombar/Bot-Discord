@@ -10,7 +10,7 @@ class BotManager {
     }
 
     start() {
-		this.client.login(token);
+	this.client.login(token);
         this.client.on('ready', this.botReady.bind(this))
         this.client.on('guildMemberAdd', this.botGuildMemberAdd.bind(this));
         this.client.on('guildMemberRemove', this.botGuildMemberRemove.bind(this));
