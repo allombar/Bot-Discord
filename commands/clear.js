@@ -10,7 +10,7 @@ module.exports = {
 		{	
 			var number = parseInt(args[0]) + 1;
 			message.channel.bulkDelete(number)
-			  .then(messages)
+			  .then(message)
 			  .catch(console.error);
 		}
 		else 
