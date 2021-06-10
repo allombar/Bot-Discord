@@ -6,7 +6,7 @@ const { prefix, token, name } = require('./config/config.json');
 class BotManager {
 
 	constructor() {
-        this.client = new Discord.Client();
+        this.client = new Discord.Client({fetchAllMembers: true});
     }
 
     start() {
